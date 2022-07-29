@@ -4,7 +4,7 @@
 
 ## Reseña y Finalidad del Programa
 
-El programa al cual este README hace referencia, es el proyecto final del curso ELO329 o Diseño y Programación Orientado a Objetos, este es un programa escrito en el lenguaje de programación C++. 
+El programa al cual este README hace referencia, es el proyecto final del curso ELO329 o Diseño y Programación Orientado a Objetos, este es un programa escrito en el lenguaje de programación C++, además este cuenta con una interfaz gráfica realizada con Qt Creator. 
 La finalidad del programa es poder calcular distintos datos relacionados con el lanzamiento de proyectiles tales como:
 
 - Altura Máxima.
@@ -29,7 +29,7 @@ Debido a que este tipo de movimiento es bastante común en la vida cotidiana hem
 ## Programación Orientada a Objetos
 
 Como se mencionó anteriormente para la realización del proyecto se ocupó el lenguaje de programación C++, esta elección se debe a que este lenguaje soporta tanto la programación con paradigma procedural como con el paradigma de orientación a objetos, y para nuestro proyecto ambos paradigmas son útiles, sin embrago el más utilizado fue el de orientación a objetos o POO.
-El paradigma de orientación a objetos fue utilizado para modelar el lanzamiento de proyectiles de forma completa, teniendo métodos tales como set_Altura o set_Masa y teniendo atributos como masa, altura o velocidad inicial.
+El paradigma de orientación a objetos fue utilizado para modelar el lanzamiento de proyectiles de forma completa, teniendo métodos tales como set_Altura o set_Masa y teniendo atributos como masa, altura o velocidad inicial. Además de lo anterior cabe destacar que para la creación de la GUI es necesario adoptar el paradigma de POO ya que facilita mucho el trabajo en programas con Qt Creator.
 
 ***
 
@@ -37,6 +37,7 @@ El paradigma de orientación a objetos fue utilizado para modelar el lanzamiento
 
 Debido a que el programa está escrito en el lenguaje de C++, este debe ser compilado antes de ser ejecutado, el compilador que se debe usar es g++.
 La recomendación es compilar y ejecutar el programa en algún sistema Linux, esto debido a que la compilación y ejecución de este programa es mucho más sencilla y directa en Linux que en otros sistemas operativos como Windows.
+Otra condición necesaria para la ejecución del programa en su totalidad es el tener instalado el programa Qt Creator ya que con este es posible desplegar el programa con su interfaz gráfica, además Qt Creator tiene que estar en la versión 5 ya que si no ocurren errores con ciertas funciones y ventanas de la GUI del programa.
 
 ***
 
@@ -59,6 +60,23 @@ $ ./PROYECTIL
 ```
 
 Una vez ejecutado lo anterior se imprimirán unos mensajes por pantalla y se podrán ingresar los datos necesarios para realizar todos los cálculos.
+
+***
+
+## Interfaz Grafica
+
+El programa en una versión más avanzada cuenta con interfaz gráfica para poder hacer más agradable la experiencia del usuario, esto al hacer más amigable el ambiente de uso del programa y mostrar recursos visuales los cuales ayudan a los usuarios.
+
+Para hacer uso del programa con interfaz gráfica es necesario seguir los siguientes pasos: 
+
+1) Descargar todos los archivos subidos al GitHub de este proyecto.
+2) Descomprimir la carpeta .zip.
+3) Abrir el archivo "Proyecto_ELO329.pro".
+4) Una vez dentro de Qt Creator y con el proyecto abierto correr el proyecto con Run.
+
+Una vez realizado lo anterior se desplegarán las ventanas del programa de la calculadora de lanzamientos de proyectiles.
+
+**Para la correcta ejecución del programa con GUI es necesario tener la versión 5 de Qt Creator**
 
 *** 
 
